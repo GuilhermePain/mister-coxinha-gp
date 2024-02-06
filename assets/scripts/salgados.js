@@ -16,9 +16,8 @@ function showModal() {
 
     btnPedirSalgado.forEach(buttons => {
         buttons.addEventListener('click', showModal);
-    })
-    
-    btnCancel.addEventListener('click', closeModal)
+    });
+    btnCancel.addEventListener('click', closeModal);
     fadeBackground.addEventListener('click', closeModal);
 }
 
