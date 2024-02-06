@@ -1,5 +1,5 @@
 function showModal() {
-    const btnPedirCongelado = document.querySelectorAll('#btn-pedir-congelado');
+    const btnPedirSalgado = document.querySelectorAll('#btn-pedir-salgado');
     const fadeBackground = document.querySelector('#fade');
     const modal = document.querySelector('#modal');
     const btnCancel = document.querySelector('#btn-cancel');
@@ -14,7 +14,7 @@ function showModal() {
         modal.style.display = 'none';
     }
 
-    btnPedirCongelado.forEach(buttons => {
+    btnPedirSalgado.forEach(buttons => {
         buttons.addEventListener('click', showModal);
     })
     
