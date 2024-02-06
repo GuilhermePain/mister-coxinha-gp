@@ -38,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 35px;
-    padding: 10px 0 20px 0;
+    padding: 8px 0 28px 0;
     color: var(--white);
 }
 
@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 26px;
     margin-top: 70px;
 }
 
